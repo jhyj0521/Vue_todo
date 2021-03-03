@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# vue-todo
+# Vue-todo
 
 ## Project setup
 ```
@@ -23,7 +22,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
-# Vue_todo
-Vue.js를 이용한 TodoList
->>>>>>> f775722ee98784756b0add62e86974a7bd6ba48c
