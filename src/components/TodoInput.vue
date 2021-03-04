@@ -17,10 +17,7 @@ export default {
    methods: {
       addTodo: function() {
          if (this.newTodoItem !== '') {
-            var obj = {completed: false, item: this.newTodoItem};
-            // 여기서의 this는 현재의 컴포넌트를 가르킨다.
-            // 로컬 스토리지에 키, 값으로 저장한다.
-            localStorage.setItem(this.newTodoItem, JSON.stringify(obj));
+            this.$emit('addTodoItem', this.newTodoItem);
             this.clearInput();
          }
       },
